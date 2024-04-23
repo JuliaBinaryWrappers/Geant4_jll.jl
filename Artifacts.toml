@@ -1,118 +1,116 @@
 [[Geant4]]
 arch = "aarch64"
-git-tree-sha1 = "4afb5743b029965f72ec5a970d92d5344ce830d2"
+git-tree-sha1 = "04a1f392c53fa9913a6e32dc79e45dcf6f1dd250"
 os = "macos"
 
     [[Geant4.download]]
-    sha256 = "6d4f48be826f4c816f4ba6029cc63351f3b6725f6dc326ee57698e2404e14112"
-    url = "https://github.com/JuliaBinaryWrappers/Geant4_jll.jl/releases/download/Geant4-v11.2.0+0/Geant4.v11.2.0.aarch64-apple-darwin.tar.gz"
+    sha256 = "0ddc72aac15fd0a908d8a1cf9468c648025b10b0ae46ef219280adfce8a2ccca"
+    url = "https://github.com/JuliaBinaryWrappers/Geant4_jll.jl/releases/download/Geant4-v11.2.1+0/Geant4.v11.2.1.aarch64-apple-darwin.tar.gz"
 [[Geant4]]
 arch = "aarch64"
 cxxstring_abi = "cxx03"
-git-tree-sha1 = "2579bc4ffa17896bcfffa14a194ac007c6581d2f"
+git-tree-sha1 = "8d2a853d9c8f5c552671b93cc229de40f0ef3f6b"
 libc = "glibc"
 os = "linux"
 
     [[Geant4.download]]
-    sha256 = "2751608cf13578aefbfb0b4e083f8a56252322105cf783c12e9d906a676231bf"
-    url = "https://github.com/JuliaBinaryWrappers/Geant4_jll.jl/releases/download/Geant4-v11.2.0+0/Geant4.v11.2.0.aarch64-linux-gnu-cxx03.tar.gz"
+    sha256 = "87f14080a5adc5142ec108a32d081b6816c0bedf5666886662c3eb75b906e3c1"
+    url = "https://github.com/JuliaBinaryWrappers/Geant4_jll.jl/releases/download/Geant4-v11.2.1+0/Geant4.v11.2.1.aarch64-linux-gnu-cxx03.tar.gz"
 [[Geant4]]
 arch = "aarch64"
 cxxstring_abi = "cxx11"
-git-tree-sha1 = "d7b4c0e38bfb64a6166e6251ed1fbe365f7d0f79"
+git-tree-sha1 = "e281316a0059f4457bf0310924177d9301be63cb"
 libc = "glibc"
 os = "linux"
 
     [[Geant4.download]]
-    sha256 = "3c0736c9046b25bb09a3b3f8ba9c0c55b56040078abc9585c28090d60bdb8f1a"
-    url = "https://github.com/JuliaBinaryWrappers/Geant4_jll.jl/releases/download/Geant4-v11.2.0+0/Geant4.v11.2.0.aarch64-linux-gnu-cxx11.tar.gz"
+    sha256 = "e9964841d608cda0762a609164c45eb67d8f87c5e6978918896043d5a3afd9a7"
+    url = "https://github.com/JuliaBinaryWrappers/Geant4_jll.jl/releases/download/Geant4-v11.2.1+0/Geant4.v11.2.1.aarch64-linux-gnu-cxx11.tar.gz"
 [[Geant4]]
 arch = "armv7l"
 call_abi = "eabihf"
 cxxstring_abi = "cxx03"
-git-tree-sha1 = "2922a2ebb270529ca635831511f993b32ab39fd3"
+git-tree-sha1 = "8830addb45bd6b13b22f2efcd41f50098269c9d9"
 libc = "glibc"
 os = "linux"
 
     [[Geant4.download]]
-    sha256 = "e0687fb67cc6b96b6e7978bf062db6943dab8a4430fe1c4365326b5d3294aa29"
-    url = "https://github.com/JuliaBinaryWrappers/Geant4_jll.jl/releases/download/Geant4-v11.2.0+0/Geant4.v11.2.0.armv7l-linux-gnueabihf-cxx03.tar.gz"
+    sha256 = "63c57eef1cadea126d45916740ac29b760e9b03089839073ef3d1b8cf170a924"
+    url = "https://github.com/JuliaBinaryWrappers/Geant4_jll.jl/releases/download/Geant4-v11.2.1+0/Geant4.v11.2.1.armv7l-linux-gnueabihf-cxx03.tar.gz"
 [[Geant4]]
 arch = "armv7l"
 call_abi = "eabihf"
 cxxstring_abi = "cxx11"
-git-tree-sha1 = "54ff58675fdcf86de244ccfd9ce2ca0b5c7b4985"
+git-tree-sha1 = "9706af9afb25d6151e80212c4794d0eb104a7e97"
 libc = "glibc"
 os = "linux"
 
     [[Geant4.download]]
-    sha256 = "57177a8784ca50c621e177e5a4ddcc5ade91f3aa51586f587b289fdac8007c9c"
-    url = "https://github.com/JuliaBinaryWrappers/Geant4_jll.jl/releases/download/Geant4-v11.2.0+0/Geant4.v11.2.0.armv7l-linux-gnueabihf-cxx11.tar.gz"
-[[Geant4]]
-arch = "i686"
-cxxstring_abi = "cxx03"
-git-tree-sha1 = "5f0ac22725a8941f59b2721077fb6cda241e4c0f"
-libc = "glibc"
-os = "linux"
-
-    [[Geant4.download]]
-    sha256 = "4618672e7f6c83a3b5ac276648ad1faa0621c9fac427b3fdec4c84c20439f486"
-    url = "https://github.com/JuliaBinaryWrappers/Geant4_jll.jl/releases/download/Geant4-v11.2.0+0/Geant4.v11.2.0.i686-linux-gnu-cxx03.tar.gz"
-[[Geant4]]
-arch = "i686"
-cxxstring_abi = "cxx11"
-git-tree-sha1 = "ba9d50ab6bb78938cf05d45e7e3afea53cab8467"
-libc = "glibc"
-os = "linux"
-
-    [[Geant4.download]]
-    sha256 = "de3a85475bfc9f625b13ac76191f2fe1963bb35248493c4afc0ae271057a1327"
-    url = "https://github.com/JuliaBinaryWrappers/Geant4_jll.jl/releases/download/Geant4-v11.2.0+0/Geant4.v11.2.0.i686-linux-gnu-cxx11.tar.gz"
+    sha256 = "1932e664ca30e2eab584af4e1e9aeed0c22a83279be6bebaef85f8c692b4e026"
+    url = "https://github.com/JuliaBinaryWrappers/Geant4_jll.jl/releases/download/Geant4-v11.2.1+0/Geant4.v11.2.1.armv7l-linux-gnueabihf-cxx11.tar.gz"
 [[Geant4]]
 arch = "powerpc64le"
 cxxstring_abi = "cxx03"
-git-tree-sha1 = "981c460ba6c6dd37e8eee0f1ad9998c85909143a"
+git-tree-sha1 = "1ad75511c8f05f631091ee3bf40dd5de2cad4335"
 libc = "glibc"
 os = "linux"
 
     [[Geant4.download]]
-    sha256 = "a8868883821746ce5ef563d89940aefa2ce8873478d19f8d44030ba82e4e9e1a"
-    url = "https://github.com/JuliaBinaryWrappers/Geant4_jll.jl/releases/download/Geant4-v11.2.0+0/Geant4.v11.2.0.powerpc64le-linux-gnu-cxx03.tar.gz"
+    sha256 = "07c9f1aca9e6ab47873c1589cd9c8e53047359aaa422a9781ba905c5cd0c165d"
+    url = "https://github.com/JuliaBinaryWrappers/Geant4_jll.jl/releases/download/Geant4-v11.2.1+0/Geant4.v11.2.1.powerpc64le-linux-gnu-cxx03.tar.gz"
 [[Geant4]]
 arch = "powerpc64le"
 cxxstring_abi = "cxx11"
-git-tree-sha1 = "5751dee752ed88731cad4c8fe05b69fba2a9e406"
+git-tree-sha1 = "98f1cc9b8655e293d37bba6123d932b16eeecd3d"
 libc = "glibc"
 os = "linux"
 
     [[Geant4.download]]
-    sha256 = "5b1252c9f9c111f8da00a6344e0a8cb23af56de214299c023542998cf94e6ffc"
-    url = "https://github.com/JuliaBinaryWrappers/Geant4_jll.jl/releases/download/Geant4-v11.2.0+0/Geant4.v11.2.0.powerpc64le-linux-gnu-cxx11.tar.gz"
+    sha256 = "17413ee517a3b31bcaf7e1e31b764d127a750f383101a9a77681cfc1af01d66e"
+    url = "https://github.com/JuliaBinaryWrappers/Geant4_jll.jl/releases/download/Geant4-v11.2.1+0/Geant4.v11.2.1.powerpc64le-linux-gnu-cxx11.tar.gz"
 [[Geant4]]
 arch = "x86_64"
-git-tree-sha1 = "e89d3aefad70540b6c40c13807074a120f1c85bf"
+git-tree-sha1 = "bd750d0fc01e0e55fa4352cdc917d1f6184951c5"
 os = "macos"
 
     [[Geant4.download]]
-    sha256 = "e91c242ec5409e7fa894992163c342847ede9a44d5e0fbb742a53410d356decc"
-    url = "https://github.com/JuliaBinaryWrappers/Geant4_jll.jl/releases/download/Geant4-v11.2.0+0/Geant4.v11.2.0.x86_64-apple-darwin.tar.gz"
+    sha256 = "2b6e7a59a14dccc91a35e9fbebddd5c3e85d537e188ffa1e3e64474740838877"
+    url = "https://github.com/JuliaBinaryWrappers/Geant4_jll.jl/releases/download/Geant4-v11.2.1+0/Geant4.v11.2.1.x86_64-apple-darwin.tar.gz"
 [[Geant4]]
 arch = "x86_64"
 cxxstring_abi = "cxx03"
-git-tree-sha1 = "601a5989854002aece482cc5ce16ed0a8caa5f63"
+git-tree-sha1 = "ad21856f7677e0960d3216b5cc86891e6bef8150"
 libc = "glibc"
 os = "linux"
 
     [[Geant4.download]]
-    sha256 = "223f6026cff8b4b3c8c71559239d9f964a1a3ca7bb136e2c893a96ae83e7f2f7"
-    url = "https://github.com/JuliaBinaryWrappers/Geant4_jll.jl/releases/download/Geant4-v11.2.0+0/Geant4.v11.2.0.x86_64-linux-gnu-cxx03.tar.gz"
+    sha256 = "9cab9101c3c4d98c9a6a253eeef9475326f4525237a59ebec78f87887c6f0618"
+    url = "https://github.com/JuliaBinaryWrappers/Geant4_jll.jl/releases/download/Geant4-v11.2.1+0/Geant4.v11.2.1.x86_64-linux-gnu-cxx03.tar.gz"
 [[Geant4]]
 arch = "x86_64"
 cxxstring_abi = "cxx11"
-git-tree-sha1 = "3093815a8e34db5e9874e95a0be3970b1cf82462"
+git-tree-sha1 = "84d8779a7e5910c261c4b88b356b27a62fda4de1"
 libc = "glibc"
 os = "linux"
 
     [[Geant4.download]]
-    sha256 = "b33e6a5105bd577c122f4f58b546f53b8345e77fca8b5fe4904ce1e7cb698eb4"
-    url = "https://github.com/JuliaBinaryWrappers/Geant4_jll.jl/releases/download/Geant4-v11.2.0+0/Geant4.v11.2.0.x86_64-linux-gnu-cxx11.tar.gz"
+    sha256 = "5e465289e70ade757f9a6b646c7db961f7cfdffdc62fa00a6c042591b4567a73"
+    url = "https://github.com/JuliaBinaryWrappers/Geant4_jll.jl/releases/download/Geant4-v11.2.1+0/Geant4.v11.2.1.x86_64-linux-gnu-cxx11.tar.gz"
+[[Geant4]]
+arch = "x86_64"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "0950a282b34e2db97fcefe99ee532400c5fdfdd2"
+os = "windows"
+
+    [[Geant4.download]]
+    sha256 = "f2ce9ee83f92cabe069e7e8a0a42d8f059f8dd51a1375265cec3429318f4780c"
+    url = "https://github.com/JuliaBinaryWrappers/Geant4_jll.jl/releases/download/Geant4-v11.2.1+0/Geant4.v11.2.1.x86_64-w64-mingw32-cxx03.tar.gz"
+[[Geant4]]
+arch = "x86_64"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "d2bbddf5749a5961543d032624e387c2c52a6194"
+os = "windows"
+
+    [[Geant4.download]]
+    sha256 = "b7afc04aeb05de32e407ce824ad6691efd1863ca393261ec60875a1d90a0694d"
+    url = "https://github.com/JuliaBinaryWrappers/Geant4_jll.jl/releases/download/Geant4-v11.2.1+0/Geant4.v11.2.1.x86_64-w64-mingw32-cxx11.tar.gz"
