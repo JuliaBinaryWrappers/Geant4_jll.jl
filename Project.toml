@@ -1,11 +1,12 @@
 name = "Geant4_jll"
 uuid = "872b6946-528a-5ac7-9145-d37eec569368"
-version = "11.3.2+0"
+version = "11.3.2+1"
 
 [deps]
 Libglvnd_jll = "7e76a0d4-f3c7-5321-8279-8d96eeed0f29"
 Xerces_jll = "637d83c4-b86a-5d90-b82d-5cf0573a8cfc"
 JLLWrappers = "692b3bcd-3c85-4b1f-b108-f13ce0eb3210"
+Zlib_jll = "83775a58-1f1d-513f-b197-d71354ab007a"
 Libdl = "8f399da3-3557-5675-b5ff-fb832c97cbdb"
 Expat_jll = "2e619515-83b5-522b-bb60-26c02a35a201"
 Xorg_libXmu_jll = "6bc1fdef-f8f4-516b-84c1-6f5f86a35b20"
@@ -14,6 +15,7 @@ Artifacts = "56f22d72-fd6d-98f1-02f0-08ddc0907c33"
 [compat]
 JLLWrappers = "1.7.0"
 julia = "1.6"
+Zlib_jll = "1.2.12"
 Libdl = "< 0.0.1, 1"
 Expat_jll = "2.6.4"
 Artifacts = "< 0.0.1, 1"

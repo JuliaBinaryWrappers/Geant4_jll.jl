@@ -5,6 +5,7 @@ using Expat_jll
 using Xorg_libXmu_jll
 using Libglvnd_jll
 using Xerces_jll
+using Zlib_jll
 JLLWrappers.@generate_wrapper_header("Geant4")
 JLLWrappers.@declare_file_product(data_dir)
 JLLWrappers.@declare_library_product(libG4Analysis, "@rpath/libG4analysis.dylib")
@@ -40,7 +41,7 @@ JLLWrappers.@declare_library_product(libG4VRML, "@rpath/libG4VRML.dylib")
 JLLWrappers.@declare_library_product(libG4VisHepRep, "@rpath/libG4visHepRep.dylib")
 JLLWrappers.@declare_library_product(libG4visManagement, "@rpath/libG4vis_management.dylib")
 function __init__()
-    JLLWrappers.@generate_init_header(Expat_jll, Xorg_libXmu_jll, Libglvnd_jll, Xerces_jll)
+    JLLWrappers.@generate_init_header(Expat_jll, Xorg_libXmu_jll, Libglvnd_jll, Xerces_jll, Zlib_jll)
     JLLWrappers.@init_file_product(
         data_dir,
         "share/Geant4/data",
